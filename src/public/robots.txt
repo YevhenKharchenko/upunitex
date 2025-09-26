@@ -3,4 +3,4 @@ Disallow: /admin/
 Disallow: /private/
 Allow: /
 
-Sitemap: https://venturivo.space/sitemap.xml
+Sitemap: https://upunitex.site/sitemap.xml

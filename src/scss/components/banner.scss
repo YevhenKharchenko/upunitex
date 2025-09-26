@@ -26,7 +26,7 @@
 }
 
 .cookie-banner-text {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-weight: 600;
   font-size: 16px;
   line-height: 1.5;
@@ -57,13 +57,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #433ccd;
-  border-radius: 50px;
+  background: #0d6b4a;
+  border-radius: 4px;
   padding: 16px 32px;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 600;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  text-transform: uppercase;
   color: #fff;
   width: 100%;
   max-width: 343px;
@@ -78,12 +79,13 @@
   align-items: center;
   justify-content: center;
   border: 1px solid #272727;
-  border-radius: 50px;
+  border-radius: 4px;
   padding: 16px 32px;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 600;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  text-transform: uppercase;
   color: #272727;
   width: 100%;
   max-width: 343px;
