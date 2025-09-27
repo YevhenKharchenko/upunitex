@@ -1,0 +1,946 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Upunitex – AI Learning for Adults | upunitex.site</title>
+    <meta
+      name="description"
+      content="Upunitex is an online AI-powered learning hub for adults. Adaptive courses, expert mentors, and career-ready projects to help you reskill, upskill, and grow."
+    />
+    <meta
+      name="keywords"
+      content="AI learning, adult education, online courses, reskilling, upskilling, AI tutor, career training, data analytics, business AI, creative AI, professional development"
+    />
+    <meta name="author" content="Upunitex Team" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://upunitex.site" />
+    <link rel="icon" type="image/png" href="/upunitex/favicon.png" />
+    
+    <script type="module" crossorigin src="/upunitex/commonHelpers3.js"></script>
+    <link rel="modulepreload" crossorigin href="/upunitex/assets/header-4f4d4b96.js">
+    <link rel="modulepreload" crossorigin href="/upunitex/assets/vendor-26f8a4ee.js">
+    <link rel="stylesheet" href="/upunitex/assets/header-fb95b651.css">
+    <link rel="stylesheet" href="/upunitex/assets/vendor-99dc0a1c.css">
+  </head>
+  <body>
+    <header class="header">
+  <div class="container header-container">
+    <nav class="nav">
+      <a class="header-logo-link" href="./">
+        <img
+          class="hero-title-img"
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAYAAACOEfKtAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAjHSURBVHgB7ZxdbBRVFMfP7HZbtttuaQlSKTUFDN9FIGmjxQgEqMCLkPAAkQ/jixAwIQE00Qj6AuoTRXgxGgFNIMHQCtFgpGJiTASjKdG0mFQo0EJpKa3dfm/b8f6nHd2dmd29d+ZOi2F+yWbY2aGd/vbce889d2YUMhCJqMvJT+sVhV5ib4vIg0ihGlKpJkr0Xm5QaYj/aJR2VZ0Y6KeD7MA95JEYlY5Eg0ykonTgrSZwVN5l9uEi8kgNi8hoBq2ARB/ej0aeJ48X5irQy5wxlPZetShAdJM8hFEHaYXPP0zvkoc92GDr8yn0DHnYApmK0tWrquRhGx95OMIT6BBPoEM8gQ5Jo8eQzkGVrncPUfXDKEWGVJqa4aPScBqV5ojrcH0UPnyzl673DHEde3J+FrlNVcsAHb7Vq0k0UsBE4hyw5cVVgU39w7Tqt07u43HyiAS3OH6nj4419iU9JjtNoZPzsmhuyE88uNoHoomIgD/QLdBkU8kDERaZ22u7LCPUClcFnrrXL3R8HWvqvCcuyuGGXu5jIZH33F0TePXvQa0Ji4ATr2odINng517tHBT6P7zn4ZpAuyJEmz0Pdd18g1gsvF++KwLxjVe32xOBSBGNlvHEFYGXmDwnfVl1m9woLJgg/mfOGc9RGLmWEyofDEgdTApGE2UR5mSOk0D0HU6boJ1OPxW7CidwHxtmueBuzuOlC5SVy30umAKlAhHIK/HQzEzu2Yh0gbIiBz9Hdk64e9qEpBL1qdzKvADxInUqhxRk95/dJItd7A/eLdD0eNG7mV9YrtrJiglhv6JJK2FRiuYrglSBb9X3UKXERBgRcWlJmB5lpM3c8a1WSp5F6JHiZoGhq1Nlr8Sf509LHpHSzsyt5Bc5oROBzY0q1V8fZlui++zfzU2qtq8rMvKZzlBaNw2nd1FfuIGGAt3s1UXBvB4qmJJF5YsX0rLl2TS3KN/086U14Q3XItx1P/QzvAMEykuXFoe5+iZEU32dSteuYDtMNT9DlPn39IVvUF9OA9vepGjmferVti1UmDuFlj69kOYXzNC2CwpmpvydUiIQpSJeeeCj2SF6nQ02PBL1AsO2JzMsP4ewmivD9NN3w1RfaxaGyOrLuUGR/KvaFrKGAyMDXTgYonULypiwDbSuuIwK86aQKFIEipStMEVCk1w/OZ37/2F0jxUIYYiyi+eG4pqhDqKqM/8Kk3YlThhAlK0rLqc1xc9pUeYUKQJF+r9t+SMikDbwCtRSjnuDVHtW0eThZQSR9nDmeeqe9If2igWR9toLG6iMCZMhLRbHAjHyitT99IWb0tGcK1UzTq/zUea3abSvbpB8PfH9IKR1PFWtRZqVtM0l/0UaovggiqocSwx6Qs2DY4EihQNIi50ibWXReDxBmR3isioD2taIHm0Ppl+Ia55g6cyFmrTNpeWaRB0kzKIFXh4cCRQtHKDfiwXReLwx/phk4ron/U5tMy5oEWcE4vat2SK9iabCkUDR6rFxjqmtxbIXvoRU4lpnnzE1U7CpZDXtZ+LsjKAycCRQZPRF9Fnlcs8OBKj+kN9S3ECwhZoXfGIZceMtTse2QNFFow1PpJv2nTw6RN98plB6JF5esj6uuKiYTmzdN+7idGwLFFk0MlaEkYZ88MagNq0ygmhrXFRhEheYPI+C8zfSNNbHFea5fwUDL7YEii4alYzKw1QLUfflCfOsBc317uIKUz+nBEKauOCstdp7fdHJzQKDCLbOQnTRCLMIzBje2RnVpl5G2macp5ZZZ0xRl15QQlmlOzSJsTgtMMjE1lmI5H5ovrVniU5URC3nqU0s6oyDBIRBHARagUUnVJZFi59uICxQJPfzdSsUPhugY+fNxyM1aVp0VKuCxIK+Lvv5vaaoi0VfdFolUHp3C2GBvItG/laFJh7JoPbb5ihBk22e/6lpf+ai7f/2danAotP/UiBP9KXdUiiXyfM/MM9dkdd1FH4ft98Xmkzhsr3kzy0iXvRFp/FuxkKrcph5pMr9kBDnHTLLwyjbUPa2SR6a7MTy94Xk6ZySvPRpB2GByQj+mKbJM1ZNdHl9OfF3lE1gzTW84kDS/i4ZblzJJQq3wFSLRlnnApTzsblPQkHzr2V7TINFJsvtQqzPc4KMqyCcwi0w2YlCXlaluTtFeoLIM+Z32mDBBMpA9oVIonALPHXXur9JJK+jsJpulxwyycsq3ck90vIg+0IkUbgEJlo0SiYPOZ7peCYvo2gZycStq1p54RJoNdqFWJndSp6eIBtxQ56OG1e18sIl0Nj/Zfzqp+wvrAeM2yWHTfvR57klj0bPz85lvDJIKdC4aIQZhtVoi1TljkWflxlTSXGT8YrClDOR2MIB5CXL84ypyual6+nl8lfILryL7+BUc78rV3KlIqnA2DwLhQGrGQZA5Bnl4bKIio07yAkii+96gWGsy1xJm3BsswhVpVnKw9zWOMNAuf3kqwfIKSsFiwVu3umUiKQC9W8f6UroovmbRVWlja1bGIE8GWsWxnXkVLh5p1MiEp6dvmiEyopVuqKtmFmUpPa/uIXrqiZejGvJyRiPnDChQJwIBg2UpYygLIVBwwiiDkuNMrFazUvGWI/GlgL1RSNEnlW/1zrntGnQAFW7PiTZiN7jMdZ3OlkKxKLR0Nd+rTxlBPU8q34PTdettdoSwZF1LAsMlgIv1EYpdM580mi6LbNOm/a70XRj2Z7g4spEjGWBwSQQA0f9m35TsgwSNV1En5vgMl+RZuzGnU6JMJ0VrvqcipvzpsXvxxStc8lVyqT4Zrq2uIw2la4mt1nPBhORS0kwmMQuOuFeEN6U6JF5ZsLjgPfcGId4Ah3iCXSIJ9AhnkCHeAIdAoEN5GEPlWp8LAv8ijzsoVCNEulVl7NJ22XyEIaVLKb7soPKDywKK8hDCDjDc/VHHgXfrk4MZLAoVLynmXNhfBR8bq7SEe2nFV4kpgaOdHl4b6pZ4dHweLq59oBuLyJ1GrTBVqEqdHmxH/wDLkE0lfbiiNYAAAAASUVORK5CYII="
+          alt="Logo"
+          width="40"
+          height="40"
+      /></a>
+      <ul class="nav-list">
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./index.html#home">Home</a>
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./index.html#about">About</a>
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./index.html#courses">Courses</a>
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./index.html#advantages"
+            >Why Upunitex</a
+          >
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./index.html#pricing">Pricing</a>
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./index.html#faq">FAQ</a>
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./index.html#contact">Contact</a>
+        </li>
+      </ul>
+      <a href="#contact" class="header-start-link">Start Learning</a>
+      <button class="nav-btn" type="button" aria-label="Open mobile menu">
+        <svg class="menu-icon" width="40" height="40">
+          <use href="/upunitex/assets/sprite-985d8af0.svg#icon-menu"></use>
+        </svg>
+      </button>
+      <button class="close-btn" type="button" aria-label="Close mobile menu">
+        <svg class="close-icon" width="40" height="40">
+          <use href="/upunitex/assets/sprite-985d8af0.svg#icon-close"></use>
+        </svg>
+      </button>
+    </nav>
+  </div>
+</header>
+
+    <div class="context-menu">
+  <nav class="context-nav">
+    <ul class="context-nav-list">
+      <li class="context-list-item">
+        <a class="context-list-link" href="./index.html#home">Home</a>
+      </li>
+      <li class="context-list-item">
+        <a class="context-list-link" href="./index.html#about">About</a>
+      </li>
+      <li class="context-list-item">
+        <a class="context-list-link" href="./index.html#courses">Courses</a>
+      </li>
+      <li class="context-list-item">
+        <a class="context-list-link" href="./index.html#advantages"
+          >Why Upunitex</a
+        >
+      </li>
+      <li class="context-list-item">
+        <a class="context-list-link" href="./index.html#pricing">Pricing</a>
+      </li>
+      <li class="context-list-item">
+        <a class="context-list-link" href="./index.html#faq">FAQ</a>
+      </li>
+      <li class="context-list-item">
+        <a class="context-list-link" href="./index.html#contact">Contact</a>
+      </li>
+    </ul>
+  </nav>
+</div>
+
+    <main>
+      <section class="section hero-section" id="home">
+  <div class="hero-bg-wrapper">
+    <div class="container hero-container">
+      <h1 class="hero-main-title">
+        AI Learning Designed for Adults,<br />
+        <span class="hero-title-span">Built for the Future</span>
+      </h1>
+      <p class="hero-text">
+        Upunitex offers flexible, practical, and engaging AI-driven courses that
+        help professionals reskill, upskill, and stay competitive in the digital
+        era.
+      </p>
+      <div class="hero-btn-wrapper">
+        <a href="#contact" class="hero-browse-link">Browse Courses</a>
+        <a href="#contact" class="hero-join-link">Join Free Trial</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="section about-section" id="about">
+  <div class="container about-container">
+    <div class="about-content-wrapper">
+      <div class="about-text-wrapper">
+        <h2 class="section-title about-title">About Us</h2>
+        <p class="section-subtitle about-subtitle">
+          Learning That Fits Real Life
+        </p>
+        <p class="about-text">
+          Upunitex is not another generic online school. We design AI-powered,
+          adaptive learning journeys for adults who want to stay relevant in
+          tech, business, and creative industries. Our focus is on practical
+          skills, guided by expert mentors, enhanced with personalized AI
+          tutoring.
+        </p>
+        <ul class="about-list">
+          <li class="about-list-item">
+            <svg class="about-icon" width="20" height="20">
+              <use href="/upunitex/assets/sprite-985d8af0.svg#icon-play-circle-broken"></use>
+            </svg>
+            <p class="about-list-item-text">100% online & mobile-friendly</p>
+          </li>
+          <li class="about-list-item">
+            <svg class="about-icon" width="20" height="20">
+              <use href="/upunitex/assets/sprite-985d8af0.svg#icon-play-circle-broken"></use>
+            </svg>
+            <p class="about-list-item-text">
+              Tailored learning paths powered by AI
+            </p>
+          </li>
+          <li class="about-list-item">
+            <svg class="about-icon" width="20" height="20">
+              <use href="/upunitex/assets/sprite-985d8af0.svg#icon-play-circle-broken"></use>
+            </svg>
+            <p class="about-list-item-text">
+              Mentors with 10+ years of industry experience
+            </p>
+          </li>
+          <li class="about-list-item">
+            <svg class="about-icon" width="20" height="20">
+              <use href="/upunitex/assets/sprite-985d8af0.svg#icon-play-circle-broken"></use>
+            </svg>
+            <p class="about-list-item-text">
+              Practical projects, not just theory
+            </p>
+          </li>
+        </ul>
+      </div>
+      <picture>
+        <source
+          srcset="/upunitex/assets/about-bg-desk-a1bd818e.png "
+          media="(min-width: 1440px)"
+          width="594"
+          height="412" />
+        <source
+          srcset="/upunitex/assets/about-bg-mob-f413a91f.png "
+          width="343"
+          height="268" />
+        <img
+          class="about-img"
+          src="/upunitex/assets/about-bg-mob-f413a91f.png"
+          alt="Human interacting with robot"
+          width="343"
+          height="268"
+          loading="lazy"
+      /></picture>
+    </div>
+  </div>
+</section>
+
+      <section class="section courses-section" id="courses">
+  <div class="container courses-container">
+    <div class="courses-content-wrapper">
+      <h2 class="section-title courses-title">Courses</h2>
+      <p class="section-subtitle courses-subtitle">
+        Future-Ready Learning Programs
+      </p>
+      <ul class="courses-list">
+        <li class="courses-list-item">
+          <div class="courses-icon-wrapper">
+            <svg class="courses-icon" width="42" height="42">
+              <use href="/upunitex/assets/sprite-985d8af0.svg#icon-head"></use>
+            </svg>
+          </div>
+          <div class="courses-item-text-wrapper">
+            <h3 class="courses-list-item-title">AI for Business Leaders</h3>
+            <p class="courses-list-item-text">
+              Strategy & productivity with AI tools
+            </p>
+          </div>
+        </li>
+        <li class="courses-list-item">
+          <div class="courses-icon-wrapper">
+            <svg class="courses-icon" width="42" height="42">
+              <use href="/upunitex/assets/sprite-985d8af0.svg#icon-pen"></use>
+            </svg>
+          </div>
+          <div class="courses-item-text-wrapper">
+            <h3 class="courses-list-item-title">Creative AI</h3>
+            <p class="courses-list-item-text">
+              Generative art, writing, and design workflows
+            </p>
+          </div>
+        </li>
+        <li class="courses-list-item">
+          <div class="courses-icon-wrapper">
+            <svg class="courses-icon" width="42" height="42">
+              <use href="/upunitex/assets/sprite-985d8af0.svg#icon-circle"></use>
+            </svg>
+          </div>
+          <div class="courses-item-text-wrapper">
+            <h3 class="courses-list-item-title">
+              Digital Career Transformation
+            </h3>
+            <p class="courses-list-item-text">
+              Build an AI-driven professional portfolio
+            </p>
+          </div>
+        </li>
+        <li class="courses-list-item">
+          <div class="courses-icon-wrapper">
+            <svg class="courses-icon" width="42" height="42">
+              <use href="/upunitex/assets/sprite-985d8af0.svg#icon-plane"></use>
+            </svg>
+          </div>
+          <div class="courses-item-text-wrapper">
+            <h3 class="courses-list-item-title">Data Fundamentals</h3>
+            <p class="courses-list-item-text">
+              From spreadsheets to predictive analytics
+            </p>
+          </div>
+        </li>
+        <li class="courses-list-item">
+          <div class="courses-icon-wrapper">
+            <svg class="courses-icon" width="42" height="42">
+              <use href="/upunitex/assets/sprite-985d8af0.svg#icon-ai"></use>
+            </svg>
+          </div>
+          <div class="courses-item-text-wrapper">
+            <h3 class="courses-list-item-title">AI for Developers</h3>
+            <p class="courses-list-item-text">
+              Machine learning & practical coding labs
+            </p>
+          </div>
+        </li>
+        <li class="courses-list-item">
+          <div class="courses-icon-wrapper">
+            <svg class="courses-icon" width="42" height="42">
+              <use href="/upunitex/assets/sprite-985d8af0.svg#icon-pyramid"></use>
+            </svg>
+          </div>
+          <div class="courses-item-text-wrapper">
+            <h3 class="courses-list-item-title">AI in Marketing & Sales</h3>
+            <p class="courses-list-item-text">
+              Automation, personalization & customer insights
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+      <section class="section advantages-section" id="advantages">
+  <div class="advantages-section-wrapper">
+    <div class="container advantages-container">
+      <h2 class="section-title advantages-title">Why Upunitex?</h2>
+      <p class="section-subtitle advantages-subtitle">
+        What Makes Upunitex Different?
+      </p>
+      <div class="advantages-swiper-container">
+        <ul class="swiper-wrapper advantages-swiper-wrapper">
+          <li class="swiper-slide advantages-slide">
+            <picture>
+              <source
+                srcset="/upunitex/assets/advantages-img1-desk-b0abd5ee.png "
+                media="(min-width: 1440px)"
+                width="354"
+                height="190" />
+              <source
+                srcset="/upunitex/assets/advantages-img1-mob-61611d47.png "
+                width="303"
+                height="190" />
+              <img
+                class="advantages-img"
+                src="/upunitex/assets/advantages-img1-mob-61611d47.png"
+                alt="People working"
+                width="303"
+                height="190"
+                loading="lazy"
+            /></picture>
+            <h3 class="advantages-slide-title">AI Personal Tutor</h3>
+            <p class="advantages-slide-text">
+              Adaptive feedback & pacing for every student
+            </p>
+          </li>
+          <li class="swiper-slide advantages-slide">
+            <picture>
+              <source
+                srcset="/upunitex/assets/advantages-img2-desk-0a5253a2.png "
+                media="(min-width: 1440px)"
+                width="354"
+                height="190" />
+              <source
+                srcset="/upunitex/assets/advantages-img2-mob-0b02356c.png "
+                width="303"
+                height="190" />
+              <img
+                class="advantages-img"
+                src="/upunitex/assets/advantages-img2-mob-0b02356c.png"
+                alt="People working"
+                width="303"
+                height="190"
+                loading="lazy"
+            /></picture>
+            <h3 class="advantages-slide-title">Practical-first Curriculum</h3>
+            <p class="advantages-slide-text">
+              Real-world case studies and projects
+            </p>
+          </li>
+          <li class="swiper-slide advantages-slide">
+            <picture>
+              <source
+                srcset="/upunitex/assets/advantages-img3-desk-6e2ed0a3.png "
+                media="(min-width: 1440px)"
+                width="354"
+                height="190" />
+              <source
+                srcset="/upunitex/assets/advantages-img3-mob-c3555894.png "
+                width="303"
+                height="190" />
+              <img
+                class="advantages-img"
+                src="/upunitex/assets/advantages-img3-mob-c3555894.png"
+                alt="People working"
+                width="303"
+                height="190"
+                loading="lazy"
+            /></picture>
+            <h3 class="advantages-slide-title">Global Community</h3>
+            <p class="advantages-slide-text">
+              Learn with peers across industries & countries
+            </p>
+          </li>
+          <li class="swiper-slide advantages-slide">
+            <picture>
+              <source
+                srcset="/upunitex/assets/advantages-img4-desk-124e81c8.png "
+                media="(min-width: 1440px)"
+                width="354"
+                height="190" />
+              <source
+                srcset="/upunitex/assets/advantages-img4-mob-1ed9c35a.png "
+                width="303"
+                height="190" />
+              <img
+                class="advantages-img"
+                src="/upunitex/assets/advantages-img4-mob-1ed9c35a.png"
+                alt="People working"
+                width="303"
+                height="190"
+                loading="lazy"
+            /></picture>
+            <h3 class="advantages-slide-title">Mentorship Network</h3>
+            <p class="advantages-slide-text">
+              Direct access to industry professionals
+            </p>
+          </li>
+          <li class="swiper-slide advantages-slide">
+            <picture>
+              <source
+                srcset="/upunitex/assets/advantages-img5-desk-84f1b9fa.png "
+                media="(min-width: 1440px)"
+                width="354"
+                height="190" />
+              <source
+                srcset="/upunitex/assets/advantages-img5-mob-896b6933.png "
+                width="303"
+                height="190" />
+              <img
+                class="advantages-img"
+                src="/upunitex/assets/advantages-img5-mob-896b6933.png"
+                alt="People working"
+                width="303"
+                height="190"
+                loading="lazy"
+            /></picture>
+            <h3 class="advantages-slide-title">
+              Certification & Career Support
+            </h3>
+            <p class="advantages-slide-text">
+              Recognized certificates + job prep guidance
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="section pricing-section" id="pricing">
+  <div class="container pricing-container">
+    <h2 class="section-title pricing-title">Pricing Plans</h2>
+    <p class="section-subtitle pricing-subtitle">
+      Choose the Plan That Fits Your Journey
+    </p>
+    <ul class="pricing-list">
+      <li class="pricing-list-item">
+        <div class="pricing-item-title-wrapper">
+          <div class="pricing-item-icon-wrapper">
+            <svg class="check-icon" width="42" height="42">
+              <use href="/upunitex/assets/sprite-985d8af0.svg#icon-coin"></use>
+            </svg>
+          </div>
+          <p class="pricing-list-item-title">Basic</p>
+        </div>
+        <p class="pricing-list-item-subtitle">Idea-stage learners</p>
+        <p class="pricing-list-item-price">€19/mo</p>
+        <ul class="pricing-features-list">
+          <li class="pricing-features-item">
+            <svg class="check-icon" width="24" height="24">
+              <use href="/upunitex/assets/sprite-985d8af0.svg#icon-check-fill"></use>
+            </svg>
+            <p class="pricing-features-text">AI-Powered Learning Platform</p>
+          </li>
+          <li class="pricing-features-item">
+            <svg class="check-icon" width="24" height="24">
+              <use href="/upunitex/assets/sprite-985d8af0.svg#icon-check-fill"></use>
+            </svg>
+            <p class="pricing-features-text">Access to All Core Courses</p>
+          </li>
+          <li class="pricing-features-item">
+            <svg class="check-icon" width="24" height="24">
+              <use href="/upunitex/assets/sprite-985d8af0.svg#icon-check-fill"></use>
+            </svg>
+            <p class="pricing-features-text">Community Forum Access</p>
+          </li>
+          <li class="pricing-features-item">
+            <svg class="check-icon" width="24" height="24">
+              <use href="/upunitex/assets/sprite-985d8af0.svg#icon-close-solid"></use>
+            </svg>
+            <p class="pricing-features-text pricing-features-text-close">
+              Live Mentor Sessions
+            </p>
+          </li>
+          <li class="pricing-features-item">
+            <svg class="check-icon" width="24" height="24">
+              <use href="/upunitex/assets/sprite-985d8af0.svg#icon-close-solid"></use>
+            </svg>
+            <p class="pricing-features-text pricing-features-text-close">
+              Personalized AI Tutoring
+            </p>
+          </li>
+          <li class="pricing-features-item">
+            <svg class="check-icon" width="24" height="24">
+              <use href="/upunitex/assets/sprite-985d8af0.svg#icon-close-solid"></use>
+            </svg>
+            <p class="pricing-features-text pricing-features-text-close">
+              Project-Based Assessments
+            </p>
+          </li>
+          <li class="pricing-features-item">
+            <svg class="check-icon" width="24" height="24">
+              <use href="/upunitex/assets/sprite-985d8af0.svg#icon-close-solid"></use>
+            </svg>
+            <p class="pricing-features-text pricing-features-text-close">
+              Certification
+            </p>
+          </li>
+          <li class="pricing-features-item">
+            <svg class="check-icon" width="24" height="24">
+              <use href="/upunitex/assets/sprite-985d8af0.svg#icon-close-solid"></use>
+            </svg>
+            <p class="pricing-features-text pricing-features-text-close">
+              Career Services
+            </p>
+          </li>
+        </ul>
+      </li>
+      <li class="pricing-list-item">
+        <div class="pricing-item-title-wrapper">
+          <div class="pricing-item-icon-wrapper">
+            <svg class="check-icon" width="42" height="42">
+              <use href="/upunitex/assets/sprite-985d8af0.svg#icon-coins"></use>
+            </svg>
+          </div>
+          <p class="pricing-list-item-title">Standard</p>
+        </div>
+        <p class="pricing-list-item-subtitle">
+          Beginners who want mentor support
+        </p>
+        <p class="pricing-list-item-price">€59/mo</p>
+        <ul class="pricing-features-list">
+          <li class="pricing-features-item">
+            <svg class="check-icon" width="24" height="24">
+              <use href="/upunitex/assets/sprite-985d8af0.svg#icon-check-fill-white"></use>
+            </svg>
+            <p class="pricing-features-text">AI-Powered Learning Platform</p>
+          </li>
+          <li class="pricing-features-item">
+            <svg class="check-icon" width="24" height="24">
+              <use href="/upunitex/assets/sprite-985d8af0.svg#icon-check-fill-white"></use>
+            </svg>
+            <p class="pricing-features-text">Access to All Core Courses</p>
+          </li>
+          <li class="pricing-features-item">
+            <svg class="check-icon" width="24" height="24">
+              <use href="/upunitex/assets/sprite-985d8af0.svg#icon-check-fill-white"></use>
+            </svg>
+            <p class="pricing-features-text">Community Forum Access</p>
+          </li>
+          <li class="pricing-features-item">
+            <svg class="check-icon" width="24" height="24">
+              <use href="/upunitex/assets/sprite-985d8af0.svg#icon-check-fill-white"></use>
+            </svg>
+            <p class="pricing-features-text">2 Live Mentor Sessions/month</p>
+          </li>
+          <li class="pricing-features-item">
+            <svg class="check-icon" width="24" height="24">
+              <use href="/upunitex/assets/sprite-985d8af0.svg#icon-check-fill-white"></use>
+            </svg>
+            <p class="pricing-features-text">Personalized AI Tutoring</p>
+          </li>
+          <li class="pricing-features-item">
+            <svg class="check-icon" width="24" height="24">
+              <use href="/upunitex/assets/sprite-985d8af0.svg#icon-check-fill-white"></use>
+            </svg>
+            <p class="pricing-features-text">Project-Based Assessments</p>
+          </li>
+          <li class="pricing-features-item">
+            <svg class="check-icon" width="24" height="24">
+              <use href="/upunitex/assets/sprite-985d8af0.svg#icon-check-fill-white"></use>
+            </svg>
+            <p class="pricing-features-text">Certification Included</p>
+          </li>
+          <li class="pricing-features-item">
+            <svg class="check-icon" width="24" height="24">
+              <use href="/upunitex/assets/sprite-985d8af0.svg#icon-close-solid-white"></use>
+            </svg>
+            <p class="pricing-features-text pricing-features-text-close">
+              Career Services
+            </p>
+          </li>
+        </ul>
+      </li>
+      <li class="pricing-list-item">
+        <div class="pricing-item-title-wrapper">
+          <div class="pricing-item-icon-wrapper">
+            <svg class="check-icon" width="42" height="42">
+              <use href="/upunitex/assets/sprite-985d8af0.svg#icon-piggy"></use>
+            </svg>
+          </div>
+          <p class="pricing-list-item-title">Premium</p>
+        </div>
+        <p class="pricing-list-item-subtitle">
+          Professionals & career changers
+        </p>
+        <p class="pricing-list-item-price">€129/mo</p>
+        <ul class="pricing-features-list">
+          <li class="pricing-features-item">
+            <svg class="check-icon" width="24" height="24">
+              <use href="/upunitex/assets/sprite-985d8af0.svg#icon-check-fill"></use>
+            </svg>
+            <p class="pricing-features-text">AI-Powered Learning Platform</p>
+          </li>
+          <li class="pricing-features-item">
+            <svg class="check-icon" width="24" height="24">
+              <use href="/upunitex/assets/sprite-985d8af0.svg#icon-check-fill"></use>
+            </svg>
+            <p class="pricing-features-text">Access to All Core Courses</p>
+          </li>
+          <li class="pricing-features-item">
+            <svg class="check-icon" width="24" height="24">
+              <use href="/upunitex/assets/sprite-985d8af0.svg#icon-check-fill"></use>
+            </svg>
+            <p class="pricing-features-text">Community Forum Access</p>
+          </li>
+          <li class="pricing-features-item">
+            <svg class="check-icon" width="24" height="24">
+              <use href="/upunitex/assets/sprite-985d8af0.svg#icon-check-fill"></use>
+            </svg>
+            <p class="pricing-features-text">Unlimited Live Mentor Sessions</p>
+          </li>
+          <li class="pricing-features-item">
+            <svg class="check-icon" width="24" height="24">
+              <use href="/upunitex/assets/sprite-985d8af0.svg#icon-check-fill"></use>
+            </svg>
+            <p class="pricing-features-text">
+              Advanced Personalized AI Tutoring
+            </p>
+          </li>
+          <li class="pricing-features-item">
+            <svg class="check-icon" width="24" height="24">
+              <use href="/upunitex/assets/sprite-985d8af0.svg#icon-check-fill"></use>
+            </svg>
+            <p class="pricing-features-text">Project-Based Assessments</p>
+          </li>
+          <li class="pricing-features-item">
+            <svg class="check-icon" width="24" height="24">
+              <use href="/upunitex/assets/sprite-985d8af0.svg#icon-check-fill"></use>
+            </svg>
+            <p class="pricing-features-text">Certification + Career Coaching</p>
+          </li>
+          <li class="pricing-features-item">
+            <svg class="check-icon" width="24" height="24">
+              <use href="/upunitex/assets/sprite-985d8af0.svg#icon-check-fill"></use>
+            </svg>
+            <p class="pricing-features-text">
+              Career Services (Job Prep, CV AI)
+            </p>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <a href="#contact" class="pricing-start-link">Start 7-Day Free Trial</a>
+  </div>
+</section>
+
+      <section class="section testimonials-section" id="testimonials">
+  <div class="container testimonials-container">
+    <div class="testimonials-content-wrapper">
+      <h2 class="section-title testimonials-title">Testimonials</h2>
+      <p class="section-subtitle testimonials-subtitle">
+        How Upunitex Transformed Careers
+      </p>
+      <ul class="testimonials-list">
+        <li class="testimonials-list-item">
+          <p class="testimonials-list-item-text">
+            “The AI tutor gave me instant feedback on my projects — it felt like
+            a personal coach.”
+          </p>
+          <div class="testimonials-avatar-wrapper">
+            <img
+              class="testimonials-img"
+              src="/upunitex/assets/testimonials-elena-c8bbc866.png"
+              alt="Avatar"
+              width="60"
+              height="60"
+              loading="lazy"
+            />
+            <p class="testimonials-list-item-name">Elena, 34</p>
+          </div>
+        </li>
+        <li class="testimonials-list-item">
+          <p class="testimonials-list-item-text">
+            “Upunitex helped me pivot from marketing into data analytics with
+            confidence.”
+          </p>
+          <div class="testimonials-avatar-wrapper">
+            <img
+              class="testimonials-img"
+              src="/upunitex/assets/testimonials-jonas-4838df1d.png"
+              alt="Avatar"
+              width="60"
+              height="60"
+              loading="lazy"
+            />
+            <p class="testimonials-list-item-name">Jonas, 41</p>
+          </div>
+        </li>
+        <li class="testimonials-list-item">
+          <p class="testimonials-list-item-text">
+            “I loved the mix of self-paced learning and real mentor support.”
+          </p>
+          <div class="testimonials-avatar-wrapper">
+            <img
+              class="testimonials-img"
+              src="/upunitex/assets/testimonials-amina-077f91a2.png"
+              alt="Avatar"
+              width="60"
+              height="60"
+              loading="lazy"
+            />
+            <p class="testimonials-list-item-name">Amina, 29</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+      <section class="section faq-section" id="faq">
+  <div class="container faq-container">
+    <h2 class="section-title faq-title">FAQ</h2>
+    <p class="section-subtitle faq-subtitle">
+      How Upunitex Transformed Careers
+    </p>
+    <div class="faq-list-wrapper">
+      <ul class="faq-list">
+        <li class="faq-list-item">
+          <button class="faq-top-text-btn">
+            <span class="faq-btn-text"
+              >Do I need technical knowledge to start?</span
+            >
+            <span class="faq-toggle-symbol"
+              ><svg class="faq-icon" width="24" height="24">
+                <use href="/upunitex/assets/sprite-985d8af0.svg#icon-plus"></use></svg
+            ></span>
+          </button>
+          <p class="faq-bottom-text">
+            Not at all. Basic and Standard plans are designed for complete
+            beginners. You can start from zero and gradually progress with
+            AI-guided assistance.
+          </p>
+        </li>
+        <li class="faq-list-item">
+          <button class="faq-top-text-btn">
+            <span class="faq-btn-text">Is the certificate recognized?</span>
+            <span class="faq-toggle-symbol"
+              ><svg class="faq-icon" width="24" height="24">
+                <use href="/upunitex/assets/sprite-985d8af0.svg#icon-plus"></use></svg
+            ></span>
+          </button>
+          <p class="faq-bottom-text">
+            Yes, our certification is accredited by partner institutions and
+            recognized by many employers in Europe and globally.
+          </p>
+        </li>
+        <li class="faq-list-item">
+          <button class="faq-top-text-btn">
+            <span class="faq-btn-text">How flexible is the learning?</span>
+            <span class="faq-toggle-symbol"
+              ><svg class="faq-icon" width="24" height="24">
+                <use href="/upunitex/assets/sprite-985d8af0.svg#icon-plus"></use></svg
+            ></span>
+          </button>
+          <p class="faq-bottom-text">
+            100% self-paced. You can study at your own rhythm, with optional
+            mentor sessions available in Standard and Premium plans.
+          </p>
+        </li>
+        <li class="faq-list-item">
+          <button class="faq-top-text-btn">
+            <span class="faq-btn-text"
+              >What makes Upunitex better than other online platforms?</span
+            >
+            <span class="faq-toggle-symbol"
+              ><svg class="faq-icon" width="24" height="24">
+                <use href="/upunitex/assets/sprite-985d8af0.svg#icon-plus"></use></svg
+            ></span>
+          </button>
+          <p class="faq-bottom-text">
+            Unlike generic e-learning sites, Upunitex uses AI-powered adaptive
+            tutoring, live mentor feedback, and project-based learning. This
+            combination ensures you not only consume content but actually apply
+            it in real-world contexts.
+          </p>
+        </li>
+        <li class="faq-list-item">
+          <button class="faq-top-text-btn">
+            <span class="faq-btn-text">Can I switch plans later?</span>
+            <span class="faq-toggle-symbol"
+              ><svg class="faq-icon" width="24" height="24">
+                <use href="/upunitex/assets/sprite-985d8af0.svg#icon-plus"></use></svg
+            ></span>
+          </button>
+          <p class="faq-bottom-text">
+            Yes, you can upgrade or downgrade your plan anytime. Your progress
+            and saved work will remain intact.
+          </p>
+        </li>
+        <li class="faq-list-item">
+          <button class="faq-top-text-btn">
+            <span class="faq-btn-text"
+              >How much time should I dedicate weekly?</span
+            >
+            <span class="faq-toggle-symbol"
+              ><svg class="faq-icon" width="24" height="24">
+                <use href="/upunitex/assets/sprite-985d8af0.svg#icon-plus"></use></svg
+            ></span>
+          </button>
+          <p class="faq-bottom-text">
+            Most learners spend 3–5 hours per week. Premium learners often
+            invest 6–8 hours weekly to complete projects and attend mentor
+            sessions.
+          </p>
+        </li>
+        <li class="faq-list-item">
+          <button class="faq-top-text-btn">
+            <span class="faq-btn-text"
+              >Do you offer corporate packages for teams?</span
+            >
+            <span class="faq-toggle-symbol"
+              ><svg class="faq-icon" width="24" height="24">
+                <use href="/upunitex/assets/sprite-985d8af0.svg#icon-plus"></use></svg
+            ></span>
+          </button>
+          <p class="faq-bottom-text">
+            Absolutely. We provide tailored learning paths for companies,
+            including team dashboards, progress tracking, and dedicated mentor
+            support.
+          </p>
+        </li>
+        <li class="faq-list-item">
+          <button class="faq-top-text-btn">
+            <span class="faq-btn-text"
+              >What happens if I cancel my subscription?</span
+            >
+            <span class="faq-toggle-symbol"
+              ><svg class="faq-icon" width="24" height="24">
+                <use href="/upunitex/assets/sprite-985d8af0.svg#icon-plus"></use></svg
+            ></span>
+          </button>
+          <p class="faq-bottom-text">
+            You’ll keep access until the end of your billing cycle. Your
+            certificates and project portfolio will remain permanently in your
+            account.
+          </p>
+        </li>
+      </ul>
+      <picture>
+        <source
+          srcset="/upunitex/assets/faq-bg-desk-0acf5043.png "
+          media="(min-width: 1440px)"
+          width="594"
+          height="464" />
+        <source srcset="/upunitex/assets/faq-bg-mob-dd7b21ad.png " width="343" height="272" />
+        <img
+          class="faq-img"
+          src="/upunitex/assets/faq-bg-mob-dd7b21ad.png"
+          alt="Woman working"
+          width="343"
+          height="272"
+          loading="lazy"
+      /></picture>
+    </div>
+  </div>
+</section>
+
+      <section class="section contact-section" id="contact">
+  <div class="container contact-container">
+    <div class="contact-content-wrapper">
+      <div class="contact-text-wrapper">
+        <h2 class="section-title contact-title">Contact</h2>
+        <p class="section-subtitle contact-subtitle">
+          Ready to Reimagine Your Future with AI?
+        </p>
+      </div>
+      <ul class="contact-list">
+        <li class="contact-list-item">
+          <svg class="contact-icon" width="24" height="24">
+            <use href="/upunitex/assets/sprite-985d8af0.svg#icon-mail"></use>
+          </svg>
+          <a href="mailto:info@upunitex.site" class="contact-item-link"
+            >info@upunitex.site
+          </a>
+        </li>
+        <li class="contact-list-item">
+          <svg class="contact-icon" width="24" height="24">
+            <use href="/upunitex/assets/sprite-985d8af0.svg#icon-phone"></use>
+          </svg>
+          <a href="tel:+49305550192" class="contact-item-link"
+            >+49 (30) 555-0192
+          </a>
+        </li>
+        <li class="contact-list-item">
+          <svg class="contact-icon" width="24" height="24">
+            <use href="/upunitex/assets/sprite-985d8af0.svg#icon-location"></use>
+          </svg>
+          <a href="" class="contact-item-link"
+            >Remote-first, global community
+          </a>
+        </li>
+      </ul>
+      <a href="#home" class="contact-book-link">Book a Free Consultation</a>
+    </div>
+  </div>
+</section>
+
+    </main>
+    <footer class="footer" id="footer">
+  <div class="container footer-container">
+    <div class="footer-top-wrapper">
+      <a href="mailto:info@upunitex.site" class="footer-email-link"
+        >info@upunitex.site</a
+      >
+      <nav class="footer-nav">
+        <ul class="footer-list">
+          <li class="footer-list-item">
+            <a class="footer-link" href="./privacy-policy.html"
+              >Privacy Policy</a
+            >
+          </li>
+          <li class="footer-list-item">
+            <a class="footer-link" href="./terms-and-conditions.html"
+              >Terms and Conditions</a
+            >
+          </li>
+          <li class="footer-list-item">
+            <a class="footer-link" href="./cookies-policy.html"
+              >Cookies Policy</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <p class="footer-text">© 2025 upunitex.site – AI Learning for Adults</p>
+  </div>
+</footer>
+
+    <section id="cookie-banner" class="cookie-banner-section">
+  <div class="cookie-banner-wrapper">
+    <p class="cookie-banner-text">
+      We use cookies to enhance your experience while using our website. By
+      continuing to use this site, you consent to our use of cookies.
+    </p>
+    <div class="cookie-banner-buttons">
+      <button class="cookie-accept-btn" id="cookie-accept">Accept</button>
+      <button class="cookie-decline-btn" id="cookie-decline">Reject</button>
+    </div>
+  </div>
+</section>
+
+
+    
+  </body>
+</html>
