@@ -83,6 +83,13 @@
     font-size: 16px;
     line-height: 1.5;
     color: #fff;
+
+    &:hover,
+    &:focus,
+    &:active {
+      background: #060f2b;
+      color: #fff;
+    }
   }
 }
 

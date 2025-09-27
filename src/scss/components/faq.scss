@@ -1,0 +1,145 @@
+.faq-section {
+  padding-top: 30px;
+  padding-bottom: 50px;
+
+  @include media(desktop) {
+    padding-top: 60px;
+    padding-bottom: 100px;
+  }
+}
+
+.faq-container {
+  @include media(desktop) {
+  }
+}
+
+.faq-title {
+  @include media(desktop) {
+  }
+}
+
+.faq-subtitle {
+  @include media(desktop) {
+  }
+}
+
+.faq-list-wrapper {
+  @include media(desktop) {
+    display: flex;
+    align-items: start;
+    gap: 60px;
+  }
+}
+
+.faq-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 40px;
+
+  @include media(desktop) {
+    max-width: 594px;
+    margin-bottom: 0;
+  }
+}
+
+.faq-bottom-list-item {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  width: 100%;
+  max-width: 343px;
+  transition: all 0.3s ease-in-out;
+
+  @include media(desktop) {
+    max-width: 594px;
+  }
+}
+
+.faq-top-text-btn {
+  background: #f4f7ff;
+  border-radius: 4px;
+  padding: 10px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+
+  @include media(desktop) {
+  }
+}
+
+.faq-toggle-symbol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 24px;
+  height: 24px;
+  transition: transform 0.3s ease-in-out;
+
+  @include media(desktop) {
+  }
+}
+
+.faq-icon {
+  @include media(desktop) {
+  }
+}
+
+.faq-btn-text {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: left;
+  color: #111;
+
+  @include media(desktop) {
+  }
+}
+
+.faq-bottom-text {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #565656;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+
+  @include media(desktop) {
+  }
+}
+
+.is-visible {
+  margin-left: 30px;
+  margin-top: 20px;
+  max-height: 500px;
+  opacity: 1;
+
+  @include media(desktop) {
+  }
+}
+
+.faq-list-item.faq-open .faq-toggle-symbol {
+  transform: rotate(180deg);
+}
+
+.faq-list-item.faq-open {
+}
+
+.faq-list-item.faq-open .faq-btn-text {
+}
+
+.faq-img {
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    margin: 0;
+  }
+}

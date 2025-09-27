@@ -6,12 +6,11 @@ let advantagesSwiper;
 advantagesSwiper = new Swiper('.advantages-swiper-container', {
   direction: 'horizontal',
   loop: false,
-  grabCursor: true,
   slidesPerView: 1,
   initialSlide: 0,
   spaceBetween: 32,
-  grabCursor: true,
-  allowTouchMove: true,
+  grabCursor: false,
+  allowTouchMove: false,
   speed: 500,
   autoplay: {
     delay: 2500,
