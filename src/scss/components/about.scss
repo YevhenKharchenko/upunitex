@@ -22,8 +22,8 @@
 .about-content-wrapper {
   @include media(desktop) {
     display: flex;
-    align-items: center;
-    gap: 60px;
+    flex-direction: row-reverse;
+    justify-content: space-between;
   }
 }
 
@@ -32,7 +32,7 @@
 
   @include media(desktop) {
     width: 100%;
-    max-width: 380px;
+    max-width: 594px;
     margin: 0;
   }
 }
@@ -43,24 +43,14 @@
 }
 
 .about-text {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #7a7a7a;
+  color: #565656;
+  margin-bottom: 32px;
 
   @include media(desktop) {
-  }
-}
-
-.about-img-wrapper {
-  min-height: 480px;
-
-  @include media(desktop) {
-    width: 100%;
-    max-width: 808px;
-    min-height: 375px;
-    position: relative;
   }
 }
 
@@ -69,33 +59,27 @@
   margin-right: auto;
 
   @include media(desktop) {
-    margin-left: 0;
+    margin: 0;
   }
 }
 
 .about-list {
-  background: #1b3c53;
-  padding: 40px 20px;
-  border-radius: 4px;
   width: 100%;
-  max-width: 316px;
+  max-width: 343px;
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 8px;
   margin-left: auto;
   margin-right: auto;
-  position: relative;
-  top: -30px;
 
   @include media(desktop) {
-    position: absolute;
-    top: auto;
-    bottom: 0;
-    right: 0;
+    max-width: 594px;
   }
 }
 
 .about-list-item {
+  border-bottom: 1px solid rgba(86, 86, 86, 0.2);
+  padding: 8px 0px;
   display: flex;
   align-items: center;
   gap: 14px;
@@ -109,7 +93,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #fff;
+  color: #565656;
 
   @include media(desktop) {
   }
